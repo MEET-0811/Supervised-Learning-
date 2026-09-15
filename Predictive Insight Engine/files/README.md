@@ -299,7 +299,7 @@ jupyter notebook Main.ipynb
 | Resource | Link |
 |---|---|
 | 📓 Notebook | 🔲 [(https://github.com/MEET-0811/Supervised-Learning-/blob/main/Predictive%20Insight%20Engine/files/Main.ipynb)|
-| 📊 Dataset | 🔲 *add link* |
+| 📊 Dataset | 🔲 [*add link* ](https://github.com/MEET-0811/Supervised-Learning-/blob/main/Predictive%20Insight%20Engine/files/RealEstate_HousePrice_Dataset_4200.xlsx)|
 | 🎥 Video Walkthrough | 🔲 *add Google Drive / YouTube unlisted link* |
 | 📄 Theory PDF | 🔲 *add link* |
 
