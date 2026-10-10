@@ -1,0 +1,12 @@
+Model,Accuracy,Precision,Recall,F1,F2,AUC,TN,FP (Type-I),FN (Type-II),TP
+Logistic Regression (baseline),1.0,1.0,1.0,1.0,1.0,1.0,809,0,0,111
+LR + Over-Sampling,0.9989,0.9911,1.0,0.9955,0.9982,1.0,808,1,0,111
+LR + SMOTE,0.9989,0.9911,1.0,0.9955,0.9982,1.0,808,1,0,111
+LR + Under-Sampling,0.9978,0.9823,1.0,0.9911,0.9964,1.0,807,2,0,111
+LR + ADASYN,0.9978,0.9823,1.0,0.9911,0.9964,1.0,807,2,0,111
+Tuned Logistic Regression (Grid),0.9978,0.9823,1.0,0.9911,0.9964,1.0,807,2,0,111
+Tuned Random Forest (Randomized),0.9967,0.9737,1.0,0.9867,0.9946,1.0,806,3,0,111
+Tuned Random Forest (Grid),0.9967,0.9737,1.0,0.9867,0.9946,1.0,806,3,0,111
+Random Forest (default),0.9978,1.0,0.982,0.9909,0.9855,0.9999,809,0,2,109
+Tuned Decision Tree (Randomized),0.9641,0.7826,0.973,0.8675,0.9278,0.9832,779,30,3,108
+Decision Tree (default),0.9696,0.9029,0.8378,0.8692,0.8501,0.9127,799,10,18,93

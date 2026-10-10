@@ -1,0 +1,8 @@
+Model,CV Recall,± Recall,CV Precision,CV F2,CV AUC
+Logistic Regression (baseline),0.9754,0.0178,0.9888,0.978,0.9995
+Tuned Logistic Regression (Grid),0.9877,0.0116,0.9612,0.9822,0.9995
+Decision Tree (default),0.8812,0.0395,0.8854,0.8815,0.9326
+Tuned Decision Tree (Randomized),0.9507,0.0225,0.7549,0.9027,0.9752
+Random Forest (default),0.9305,0.0377,0.987,0.9411,0.9965
+Tuned Random Forest (Randomized),0.9642,0.0217,0.9654,0.9643,0.9977
+Tuned Random Forest (Grid),0.9664,0.02,0.9612,0.9653,0.9975

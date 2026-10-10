@@ -1,0 +1,11 @@
+Base model,Balancing,Precision,Recall,F1,AUC,FP (Type-I),FN (Type-II)
+Decision Tree,None,0.9029,0.8378,0.8692,0.9127,10,18
+Decision Tree,Under-Sampling,0.6933,0.9369,0.7969,0.94,46,7
+Decision Tree,Over-Sampling,0.9115,0.9279,0.9196,0.9578,10,8
+Decision Tree,SMOTE,0.832,0.9369,0.8814,0.9555,21,7
+Decision Tree,ADASYN,0.811,0.9279,0.8655,0.9491,24,8
+Random Forest,None,1.0,0.982,0.9909,0.9999,0,2
+Random Forest,Under-Sampling,0.9098,1.0,0.9528,0.9999,11,0
+Random Forest,Over-Sampling,0.9907,0.964,0.9772,0.9999,1,4
+Random Forest,SMOTE,0.9909,0.982,0.9864,0.9999,1,2
+Random Forest,ADASYN,0.973,0.973,0.973,0.9998,3,3
