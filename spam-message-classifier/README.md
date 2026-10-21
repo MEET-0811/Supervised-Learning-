@@ -99,4 +99,3 @@ git remote add origin https://github.com/<your-username>/spam-message-classifier
 git push -u origin main
 ```
 
-Add screenshots of your notebook run to a `screenshots/` folder if your submission requires them.
