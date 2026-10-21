@@ -1,0 +1,4 @@
+,Precision @ default,Recall @ default,Recall when precision >= 0.99,Recall when precision >= 0.95,Precision when recall >= 0.99,Precision when recall >= 0.95
+KNN (K=1),1.0,1.0,1.0,1.0,1.0,1.0
+SVM (Linear),1.0,1.0,1.0,1.0,1.0,1.0
+Naive Bayes,0.9949,1.0,1.0,1.0,1.0,1.0

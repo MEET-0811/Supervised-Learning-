@@ -1,0 +1,4 @@
+,Accuracy,Precision,Recall,F1,ROC-AUC,PR-AUC,Train time (s),FP (false alarms),FN (missed spam),Interpretability
+KNN (K=1),1.0,1.0,1.0,1.0,1.0,1.0,0.0126,0,0,Low-medium (case based)
+SVM (Linear),1.0,1.0,1.0,1.0,1.0,1.0,0.0173,0,0,Low (kernel) / medium (linear)
+Naive Bayes,0.999,0.9949,1.0,0.9974,1.0,1.0,0.008,1,0,High (per-feature likelihoods)
