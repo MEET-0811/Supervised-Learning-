@@ -471,21 +471,4 @@ proba = model.predict_proba(X[model.feature_names_])[:, 1]
 is_fraud = proba >= model.optimal_threshold_      # tuned threshold travels with the model
 ```
 
-## 🎥 Video walkthrough
-> Paste your Google Drive (*Anyone with the link can view*) or YouTube (*Unlisted*) link here.
 
-[![Watch the video](https://img.shields.io/badge/Watch-Video-C8102E?style=for-the-badge&logo=youtube&logoColor=white)](PASTE-VIDEO-LINK-HERE)
-
-File name: `Practical_Exam_YourName_GRID.mp4`
-
-## ✅ Submission checklist
-- [x] Notebook runs top-to-bottom without errors
-- [x] Test set never resampled, only training data was modified
-- [x] PR-AUC used as the primary metric
-- [x] Threshold optimisation shown with a comparison table
-- [x] Cost-benefit table completed with INR values
-- [ ] Video link pasted above
-- [ ] Repository link shared with the examiner
-
----
-<p align="center"><b>Quality is our Motto &middot; Shaping skills for scaling higher</b><br>Built for the Red &amp; White Skill Education practical exam</p>
