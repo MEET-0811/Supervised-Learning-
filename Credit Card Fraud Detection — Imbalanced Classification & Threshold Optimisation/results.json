@@ -1,0 +1,88 @@
+{
+  "using_demo_data": true,
+  "sample_rows": 50000,
+  "test_rows": 10000,
+  "scale_to_50k": 5.0,
+  "best_lr_strategy": "SMOTE",
+  "scale_pos_weight": 644.1612903225806,
+  "best_xgb_params": {
+    "subsample": 0.8,
+    "n_estimators": 300,
+    "max_depth": 4,
+    "learning_rate": 0.1,
+    "colsample_bytree": 0.8
+  },
+  "best_cv_pr_auc": 0.7824049624367891,
+  "thr_f1": 0.8845956325531006,
+  "thr_recall90": 0.00014666242350358516,
+  "pr_auc": {
+    "Logistic Regression": 0.8621280657312025,
+    "Random Forest": 0.381268061092378,
+    "XGBoost Baseline": 0.7167281049597165,
+    "XGBoost Tuned": 0.725620787485625
+  },
+  "comparison": [
+    {
+      "Model": "Logistic Regression (SMOTE, default)",
+      "Precision": 0.3889,
+      "Recall": 0.875,
+      "F1": 0.5385,
+      "PR-AUC": 0.8621,
+      "Threshold": 0.5
+    },
+    {
+      "Model": "Random Forest (default)",
+      "Precision": 0.4,
+      "Recall": 0.125,
+      "F1": 0.1905,
+      "PR-AUC": 0.3813,
+      "Threshold": 0.5
+    },
+    {
+      "Model": "XGBoost Baseline (default)",
+      "Precision": 0.9,
+      "Recall": 0.5625,
+      "F1": 0.6923,
+      "PR-AUC": 0.7167,
+      "Threshold": 0.5
+    },
+    {
+      "Model": "XGBoost Tuned (default 0.5)",
+      "Precision": 0.75,
+      "Recall": 0.5625,
+      "F1": 0.6429,
+      "PR-AUC": 0.7256,
+      "Threshold": 0.5
+    },
+    {
+      "Model": "XGBoost Tuned (F1-optimal)",
+      "Precision": 1.0,
+      "Recall": 0.5625,
+      "F1": 0.72,
+      "PR-AUC": 0.7256,
+      "Threshold": 0.8846
+    },
+    {
+      "Model": "XGBoost Tuned (Recall >= 0.90)",
+      "Precision": 0.0649,
+      "Recall": 0.9375,
+      "F1": 0.1215,
+      "PR-AUC": 0.7256,
+      "Threshold": 0.0001
+    }
+  ],
+  "f1_optimal_business": {
+    "Threshold": 0.8845956325531006,
+    "TP": 9,
+    "FP": 0,
+    "FN": 7,
+    "TN": 9984,
+    "Money Saved": 40500,
+    "Investigation Cost": 1350,
+    "Money Lost": 31500,
+    "Net Benefit": 39150
+  },
+  "business_optimal_threshold": 0.3,
+  "business_optimal_net": 43050.0,
+  "dummy_accuracy": 0.9984
+}
