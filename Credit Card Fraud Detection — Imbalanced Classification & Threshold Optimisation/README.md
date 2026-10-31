@@ -41,16 +41,12 @@ Red &amp; White Skill Education &middot; Practical Exam &middot; Supervised Lear
 3. [Pipeline at a glance](#-pipeline-at-a-glance)
 4. [Dataset](#-dataset)
 5. [Exploratory data analysis](#-exploratory-data-analysis)
-6. [Handling the imbalance](#-handling-the-imbalance)
-7. [Models and results](#-models-and-results)
-8. [Threshold optimisation](#-threshold-optimisation)
-9. [Business impact](#-business-impact-cost-benefit)
-10. [Key learnings](#-key-learnings)
-11. [Repository structure](#-repository-structure)
-12. [Quick start](#-quick-start)
-13. [Using the saved model](#-using-the-saved-model)
-14. [Video walkthrough](#-video-walkthrough)
-15. [Submission checklist](#-submission-checklist)
+6. [Models and results](#-models-and-results)
+7. [Business impact](#-business-impact-cost-benefit)
+8. [Key learnings](#-key-learnings)
+9. [Using the saved model](#-using-the-saved-model)
+10. [Video walkthrough](#-video-walkthrough)
+11. [Submission checklist](#-submission-checklist)
 
 ---
 
@@ -254,21 +250,5 @@ proba = model.predict_proba(X[model.feature_names_])[:, 1]
 is_fraud = proba >= model.optimal_threshold_      # tuned threshold travels with the model
 ```
 
-## 🎥 Video walkthrough
-> Paste your Google Drive (*Anyone with the link can view*) or YouTube (*Unlisted*) link here.
-
-[![Watch the video](https://img.shields.io/badge/Watch-Video-C8102E?style=for-the-badge&logo=youtube&logoColor=white)](PASTE-VIDEO-LINK-HERE)
-
-File name: `Practical_Exam_YourName_GRID.mp4`
-
-## ✅ Submission checklist
-- [x] Notebook runs top-to-bottom without errors
-- [x] Test set never resampled, only training data was modified
-- [x] PR-AUC used as the primary metric
-- [x] Threshold optimisation shown with a comparison table
-- [x] Cost-benefit table completed with INR values
-- [ ] Video link pasted above
-- [ ] Repository link shared with the examiner
 
 ---
-<p align="center"><b>Quality is our Motto &middot; Shaping skills for scaling higher</b><br>Built for the Red &amp; White Skill Education practical exam</p>
